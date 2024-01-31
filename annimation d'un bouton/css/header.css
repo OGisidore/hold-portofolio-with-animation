@@ -1,0 +1,47 @@
+
+/* ----------------- les parametres de mon header ---------------- */
+
+
+
+header{
+   
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: var(--background-color);
+    color: var(--color);
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1;
+}
+
+header h1{
+    
+    font-family: 'Playfair Display', serif;
+}
+header nav{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+}
+
+header nav svg{
+    cursor: pointer;
+}
+header ul li{
+    font-size: 20px;
+}
+header li a{
+    color: var(--color);
+    text-decoration: none;
+}

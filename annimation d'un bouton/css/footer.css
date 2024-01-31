@@ -1,0 +1,12 @@
+/*--------- les parametres speciques de mon footer---------- */
+
+
+footer{
+    background-color: var(--color);
+    color: var(--background-color);
+ }
+
+ .footofpae{
+    display: flex;
+    gap: 20px;
+ }

@@ -1,0 +1,60 @@
+/* ------------ les parametres  specifiques de la premiere page de mon site , la page de presentation------- */
+
+.about-Me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.myProfils{
+    /* position: relative; */
+    width: 640px;
+    z-index: 1;
+
+    height: 100vh;
+    cursor: pointer;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+   
+
+}
+
+
+/* .myProfils img{
+    
+    
+    max-width: 650px;
+   
+}
+
+#im1{
+    position: absolute;
+    top: 60px;
+    /* z-index: -1; */
+/* }  */
+
+.description{
+    padding: 15px;
+
+    max-width: 643px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .description h1{
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 20px;
+ }
+
+ .description p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 25px;
+    word-spacing: 10px;
+ }

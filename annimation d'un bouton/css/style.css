@@ -1,0 +1,33 @@
+/* --------------- les parametres generaux de la page de mon portofolio ----------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+/*  propriete root pour gagner asser du temps */
+:root{
+    --background-color : rgb(71, 53, 53);
+    --color: #fff;
+}
+
+
+
+
+
+/* ------------------- les mise en page de mon header --------------- */
+
+
+
+/*  --------------- les parametre du section----- */
+
+
+
+
+
+

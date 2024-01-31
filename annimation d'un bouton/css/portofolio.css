@@ -1,0 +1,184 @@
+/*  general des proprietes de mon div portofolio */
+
+
+.my-Portofolio{
+    width: 100%;
+    
+}
+
+
+.titl{
+    height: 20vh;
+    width: 100vw;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titl span{
+    position: relative;
+    font-size: 80px;
+}
+.titl :nth-child(2){
+    top: 20px;
+    color: #FFC90B;
+}
+
+.titl :nth-child(3){
+    top: -20px;
+}
+
+.titl :nth-child(4){
+    top: 10px;
+    color: var(--background-color);
+}
+
+.titl :nth-child(5){
+    top: -10px;
+    color: #FFC90B;
+}
+
+.titl :nth-child(6){
+    top: 40px;
+    
+}
+
+.titl :nth-child(7){
+    top: 20px;
+    color: #FFC90B;
+}
+
+.titl :nth-child(8){
+    top: 30px;
+    color: var(--background-color);
+}
+
+.titl :nth-child(9){
+    top: -10px;
+    
+}
+
+.titl :nth-child(10){
+    top: 10px;
+    color: #FFC90B;
+}
+
+
+
+
+
+
+/*  ------- ici je met les proprietes de la section des projets dejà realisés ------ */
+
+
+.finished-projet{
+    position: relative;
+    width: 100vw;
+    height: 2400px;
+    padding: 10px;
+    
+}
+
+
+.finished-projet div{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 380px;
+    height: 380px;
+    box-shadow: 1px 1px 10px 5px #ddd,
+    1px 2px 88px 5px var(--background-color),
+    2px 2px 21px 8px #FFC90B
+    ;
+    
+}
+.finished-projet div img{
+ width: 300px;
+ height: 150px;
+}
+
+
+
+.projet2,
+.projet4{
+    position: absolute;
+    right: 40px;
+}
+
+.projet2{
+    top: 530px;
+    
+}
+
+.projet4{
+    bottom: 470px;
+}
+
+.projet1,
+.projet3,
+.projet5{
+    position: absolute;
+    left: 40px;
+}
+.projet1{
+    top: 70px;
+}
+.projet3{
+    top: 1050px;
+}
+.projet5{
+    bottom: 20px;
+}
+
+
+/* ----------- les parametres de la div des projets en cours , les projets qui ne sont pas encore realisés */
+
+
+.unfinished-projet{
+    height: 100vh;
+    margin-top: 50px;
+    width:100vw;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.unfinished-projet h2{
+    font-size: 40px;
+    font-family: 'Playfair Display';
+}
+
+.unsold{
+    margin-top: 50px;
+    width: 80vw;
+    height: 150px;
+
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+.unsold div{
+    margin: 20px;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 5px #ddd,
+    1px 2px 88px 5px var(--background-color),
+    2px 2px 21px 8px #FFC90B
+    ;
+    
+}
+
+.unsold div *{
+    width: 120px;
+    height: auto;
+}
+
